@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catraca</title>
+</head>
+<body>
+    <center>
+        <h1>Catraca SENAI</h1>
+        
+        <script>
+            while(true){
+                var escola = prompt("Digite o nome da sua escola em letras maiúsculas")
+                var matricula = parseInt(prompt("Digite sua matrícula"))
+                
+                if(escola == "SENAI" && matricula == "2025999") {
+                    window.location.href = "/page.html"
+                    break;
+                    
+                }else {
+                    alert("Escola/Matrícula incorretos! Try again")
+                }
+            }
+        </script>
+    </center>
+</body>
+</html>
